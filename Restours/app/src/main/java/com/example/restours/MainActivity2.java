@@ -14,10 +14,8 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
     }
 
-    public void sendActv3(View view) {
-    }
-
-    public void sendActv(View view) {
-    Intent intent = getIntent();
+    public void sendactv3(View view) {
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
     }
 }

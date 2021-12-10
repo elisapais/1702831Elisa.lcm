@@ -10,7 +10,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="sendActv3"
+        android:onClick="sendactv3"
         android:text="Logotipo"
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="649dp" />
