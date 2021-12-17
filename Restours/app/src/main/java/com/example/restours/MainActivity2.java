@@ -12,10 +12,14 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        Intent intent = getIntent();
     }
 
+
+
     public void sendactv3(View view) {
-        Intent intent = new Intent(this, MainActivity3.class);
+        Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
-    }
+
+     }
 }

@@ -17,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void sendAct2(View view) {
     }
 
-    public void sendActv(View view)
-    {
+    public void sendActv(View view){
         Intent intent = new Intent(this,MainActivity2 .class);
-    startActivity(intent); }
+        startActivity(intent); }
 }

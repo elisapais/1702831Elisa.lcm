@@ -13,4 +13,14 @@
         android:text="Welcome"
         tools:layout_editor_absoluteX="157dp"
         tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendActv3"
+        android:text="Back"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="669dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

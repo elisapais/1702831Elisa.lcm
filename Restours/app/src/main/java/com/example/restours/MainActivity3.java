@@ -14,11 +14,11 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
         Intent intent = getIntent();
     }
-    public void sendAct3(View view) {
+
+    public void sendActv4(View view) {
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
     }
 
-    public void sendActv3(View view) {
-        Intent intent = new Intent(this, MainActivity3.class);
-    }
 }
 
